@@ -1,0 +1,293 @@
+2025-10-24 08:04:08 | INFO     | root                           | ================================================================================
+2025-10-24 08:04:08 | INFO     | root                           | Plant Health NLP Analysis - Système de logging initialisé
+2025-10-24 08:04:08 | INFO     | root                           | Niveau de log: INFO
+2025-10-24 08:04:08 | INFO     | root                           | Fichier de log: logs/project.log
+2025-10-24 08:04:08 | INFO     | root                           | Console activée: True
+2025-10-24 08:04:08 | INFO     | root                           | ================================================================================
+2025-10-24 08:04:08 | INFO     | __main__                       | Démarrage du script de scraping BSV
+2025-10-24 08:04:08 | INFO     | __main__                       | Plant Health NLP Analysis - Polytech Dijon
+2025-10-24 08:04:08 | INFO     | __main__                       | Initialisation du scraper BSV
+2025-10-24 08:04:08 | INFO     | __main__                       | ================================================================================
+2025-10-24 08:04:08 | INFO     | __main__                       | DÉBUT DU SCRAPING DRAAF
+2025-10-24 08:04:08 | INFO     | __main__                       | Région: bourgogne_franche_comte
+2025-10-24 08:04:08 | INFO     | __main__                       | Type de culture: grandes_cultures
+2025-10-24 08:04:08 | INFO     | __main__                       | Nombre d'années: 3
+2025-10-24 08:04:08 | INFO     | __main__                       | Année d'origine: 2025
+2025-10-24 08:04:08 | INFO     | __main__                       | Période couverte: 2022 à 2024
+2025-10-24 08:04:08 | INFO     | __main__                       | ================================================================================
+2025-10-24 08:04:08 | INFO     | __main__                       | URL de base DRAAF: https://draaf.bourgogne-franche-comte.agriculture.gouv.fr/
+2025-10-24 08:04:08 | INFO     | __main__                       | URL complète: https://draaf.bourgogne-franche-comte.agriculture.gouv.fr/archivage-bsv-grandes-cultures-r713.html
+2025-10-24 08:04:08 | INFO     | __main__                       | Répertoire de sortie: /home/ngoupaye/projets-scolaires/plant_health_NLP_analysis/data/raw/bourgogne_franche_comte
+2025-10-24 08:04:08 | INFO     | __main__                       | Récupération de la page principale DRAAF...
+2025-10-24 08:04:08 | INFO     | __main__                       | Page récupérée avec succès: https://draaf.bourgogne-franche-comte.agriculture.gouv.fr/archivage-bsv-grandes-cultures-r713.html
+2025-10-24 08:04:08 | INFO     | __main__                       | Page principale récupérée avec succès
+2025-10-24 08:04:08 | INFO     | __main__                       | Recherche des liens pour les années 2024 à 2021...
+2025-10-24 08:04:08 | INFO     | __main__                       | Recherche des liens pour l'année 2024
+2025-10-24 08:04:08 | INFO     | __main__                       | Trouvé 1 lien(s) pour l'année 2024
+2025-10-24 08:04:08 | INFO     | __main__                       | Recherche des liens pour l'année 2023
+2025-10-24 08:04:08 | INFO     | __main__                       | Trouvé 1 lien(s) pour l'année 2023
+2025-10-24 08:04:08 | INFO     | __main__                       | Recherche des liens pour l'année 2022
+2025-10-24 08:04:08 | INFO     | __main__                       | Trouvé 1 lien(s) pour l'année 2022
+2025-10-24 08:04:08 | INFO     | __main__                       | Total de 3 année(s) trouvée(s)
+2025-10-24 08:04:08 | INFO     | __main__                       | ================================================================================
+2025-10-24 08:04:08 | INFO     | __main__                       | TRAITEMENT DE L'ANNÉE 2024 (1/3)
+2025-10-24 08:04:08 | INFO     | __main__                       | ================================================================================
+2025-10-24 08:04:08 | INFO     | __main__                       | URL de l'année: https://draaf.bourgogne-franche-comte.agriculture.gouv.fr/bulletins-de-sante-du-vegetal-grandes-cultures-bourgogne-franche-comte-2024-a3284.html
+2025-10-24 08:04:08 | INFO     | __main__                       | Récupération de la page pour l'année 2024...
+2025-10-24 08:04:08 | INFO     | __main__                       | Page récupérée avec succès: https://draaf.bourgogne-franche-comte.agriculture.gouv.fr/bulletins-de-sante-du-vegetal-grandes-cultures-bourgogne-franche-comte-2024-a3284.html
+2025-10-24 08:04:08 | INFO     | __main__                       | Page de l'année 2024 récupérée avec succès
+2025-10-24 08:04:08 | INFO     | __main__                       | Collecte des liens PDF pour l'année 2024...
+2025-10-24 08:04:08 | INFO     | __main__                       | Nombre de PDF trouvés pour l'année 2024: 38
+2025-10-24 08:04:08 | INFO     | __main__                       | Répertoire créé/vérifié: /home/ngoupaye/projets-scolaires/plant_health_NLP_analysis/data/raw/bourgogne_franche_comte/2024
+2025-10-24 08:04:08 | INFO     | __main__                       | Début du téléchargement de 38 PDF pour l'année 2024...
+2025-10-24 08:04:08 | INFO     | __main__                       | Téléchargement [1/38]: bsv_gc_n_36_du_24_07_2025.pdf
+2025-10-24 08:04:10 | INFO     | utils.file_utils               | PDF téléchargé avec succès (2454.3 KB): bsv_gc_n_36_du_24_07_2025.pdf
+2025-10-24 08:04:11 | INFO     | __main__                       | Téléchargement [2/38]: bsv_gc_n_35_du_08_07_2025.pdf
+2025-10-24 08:04:15 | INFO     | utils.file_utils               | PDF téléchargé avec succès (2880.6 KB): bsv_gc_n_35_du_08_07_2025.pdf
+2025-10-24 08:04:16 | INFO     | __main__                       | Téléchargement [3/38]: bsv_gc_n_34_du_01_07_2025.pdf
+2025-10-24 08:04:20 | INFO     | utils.file_utils               | PDF téléchargé avec succès (2841.1 KB): bsv_gc_n_34_du_01_07_2025.pdf
+2025-10-24 08:04:21 | INFO     | __main__                       | Téléchargement [4/38]: bsv_gc_n_33_du_24_06_2025.pdf
+2025-10-24 08:04:23 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3167.9 KB): bsv_gc_n_33_du_24_06_2025.pdf
+2025-10-24 08:04:24 | INFO     | __main__                       | Téléchargement [5/38]: bsv_gc_n_32_du_17_06_2025-1.pdf
+2025-10-24 08:04:28 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3887.2 KB): bsv_gc_n_32_du_17_06_2025-1.pdf
+2025-10-24 08:04:29 | INFO     | __main__                       | Téléchargement [6/38]: bsv_gc_n_31_du_11_06_2025.pdf
+2025-10-24 08:04:35 | INFO     | utils.file_utils               | PDF téléchargé avec succès (4821.2 KB): bsv_gc_n_31_du_11_06_2025.pdf
+2025-10-24 08:04:36 | INFO     | __main__                       | Téléchargement [7/38]: bsv_gc_n_30_du_03_06_2025.pdf
+2025-10-24 08:04:40 | INFO     | utils.file_utils               | PDF téléchargé avec succès (4775.9 KB): bsv_gc_n_30_du_03_06_2025.pdf
+2025-10-24 08:04:41 | INFO     | __main__                       | Téléchargement [8/38]: bsv_gc_n_29_du_27_05_2025.pdf
+2025-10-24 08:04:46 | INFO     | utils.file_utils               | PDF téléchargé avec succès (5950.6 KB): bsv_gc_n_29_du_27_05_2025.pdf
+2025-10-24 08:04:47 | INFO     | __main__                       | Téléchargement [9/38]: bsv_gc_n_28_du_20_05_2025.pdf
+2025-10-24 08:04:51 | INFO     | utils.file_utils               | PDF téléchargé avec succès (5970.3 KB): bsv_gc_n_28_du_20_05_2025.pdf
+2025-10-24 08:04:52 | INFO     | __main__                       | Téléchargement [10/38]: bsv_gc_n_27_du_13_05_2025.pdf
+2025-10-24 08:04:54 | INFO     | utils.file_utils               | PDF téléchargé avec succès (4893.0 KB): bsv_gc_n_27_du_13_05_2025.pdf
+2025-10-24 08:04:55 | INFO     | __main__                       | Téléchargement [11/38]: bsv_gc_n_26_du_06_05_2025.pdf
+2025-10-24 08:05:02 | INFO     | utils.file_utils               | PDF téléchargé avec succès (5436.4 KB): bsv_gc_n_26_du_06_05_2025.pdf
+2025-10-24 08:05:03 | INFO     | __main__                       | Téléchargement [12/38]: bsv_gc_n_25_du_29_04_2025.pdf
+2025-10-24 08:05:09 | INFO     | utils.file_utils               | PDF téléchargé avec succès (8236.2 KB): bsv_gc_n_25_du_29_04_2025.pdf
+2025-10-24 08:05:10 | INFO     | __main__                       | Téléchargement [13/38]: bsv_gc_n_24_du_23_04_2025.pdf
+2025-10-24 08:05:17 | INFO     | utils.file_utils               | PDF téléchargé avec succès (12235.9 KB): bsv_gc_n_24_du_23_04_2025.pdf
+2025-10-24 08:05:18 | INFO     | __main__                       | Téléchargement [14/38]: bsv_gc_n_23_du_15_04_2025.pdf
+2025-10-24 08:05:22 | INFO     | utils.file_utils               | PDF téléchargé avec succès (5609.6 KB): bsv_gc_n_23_du_15_04_2025.pdf
+2025-10-24 08:05:23 | INFO     | __main__                       | Téléchargement [15/38]: bsv_gc_n_22_du_08_04_2025.pdf
+2025-10-24 08:05:28 | INFO     | utils.file_utils               | PDF téléchargé avec succès (4590.8 KB): bsv_gc_n_22_du_08_04_2025.pdf
+2025-10-24 08:05:29 | INFO     | __main__                       | Téléchargement [16/38]: bsv_gc_n_21_du_01_04_2025.pdf
+2025-10-24 08:05:33 | INFO     | utils.file_utils               | PDF téléchargé avec succès (4630.2 KB): bsv_gc_n_21_du_01_04_2025.pdf
+2025-10-24 08:05:34 | INFO     | __main__                       | Téléchargement [17/38]: bsv_gc_n_20_du_25_03_2025.pdf
+2025-10-24 08:05:36 | INFO     | utils.file_utils               | PDF téléchargé avec succès (4710.1 KB): bsv_gc_n_20_du_25_03_2025.pdf
+2025-10-24 08:05:37 | INFO     | __main__                       | Téléchargement [18/38]: bsv_gc_n_19_du_18_03_2025.pdf
+2025-10-24 08:05:39 | INFO     | utils.file_utils               | PDF téléchargé avec succès (4320.1 KB): bsv_gc_n_19_du_18_03_2025.pdf
+2025-10-24 08:05:40 | INFO     | __main__                       | Téléchargement [19/38]: bsv_gc_n_18_du_11_03_2025.pdf
+2025-10-24 08:05:45 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3247.5 KB): bsv_gc_n_18_du_11_03_2025.pdf
+2025-10-24 08:05:46 | INFO     | __main__                       | Téléchargement [20/38]: bsv_gc_n_17_du_04_03_2025.pdf
+2025-10-24 08:05:50 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3067.2 KB): bsv_gc_n_17_du_04_03_2025.pdf
+2025-10-24 08:05:51 | INFO     | __main__                       | Téléchargement [21/38]: bsv_gc_n_16_du_25_02_2025.pdf
+2025-10-24 08:05:53 | INFO     | utils.file_utils               | PDF téléchargé avec succès (2487.1 KB): bsv_gc_n_16_du_25_02_2025.pdf
+2025-10-24 08:05:54 | INFO     | __main__                       | Téléchargement [22/38]: bsv_gc_n_15_du_18_02_2025.pdf
+2025-10-24 08:06:05 | INFO     | utils.file_utils               | PDF téléchargé avec succès (2805.4 KB): bsv_gc_n_15_du_18_02_2025.pdf
+2025-10-24 08:06:06 | INFO     | __main__                       | Téléchargement [23/38]: bilan_bsv_gc_2023_2024.pdf
+2025-10-24 08:06:11 | INFO     | utils.file_utils               | PDF téléchargé avec succès (6438.4 KB): bilan_bsv_gc_2023_2024.pdf
+2025-10-24 08:06:12 | INFO     | __main__                       | Téléchargement [24/38]: bsv_gc_n_14_du_06_12_2024.pdf
+2025-10-24 08:06:15 | INFO     | utils.file_utils               | PDF téléchargé avec succès (2284.0 KB): bsv_gc_n_14_du_06_12_2024.pdf
+2025-10-24 08:06:16 | INFO     | __main__                       | Téléchargement [25/38]: note_campagnols_des_champs_du_19_11_2024.pdf
+2025-10-24 08:06:33 | INFO     | utils.file_utils               | PDF téléchargé avec succès (8682.8 KB): note_campagnols_des_champs_du_19_11_2024.pdf
+2025-10-24 08:06:34 | INFO     | __main__                       | Téléchargement [26/38]: bsv_gc_n_13_du_12_11_2024.pdf
+2025-10-24 08:06:35 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3034.8 KB): bsv_gc_n_13_du_12_11_2024.pdf
+2025-10-24 08:06:36 | INFO     | __main__                       | Téléchargement [27/38]: bsv_gc_n_12_du_05_11_2024.pdf
+2025-10-24 08:06:37 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3149.2 KB): bsv_gc_n_12_du_05_11_2024.pdf
+2025-10-24 08:06:38 | INFO     | __main__                       | Téléchargement [28/38]: bsv_gc_n_11_du_29_10_2024.pdf
+2025-10-24 08:06:45 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3559.4 KB): bsv_gc_n_11_du_29_10_2024.pdf
+2025-10-24 08:06:46 | INFO     | __main__                       | Téléchargement [29/38]: bsv_gc_n_10_du_22_10_2024.pdf
+2025-10-24 08:06:51 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3613.8 KB): bsv_gc_n_10_du_22_10_2024.pdf
+2025-10-24 08:06:52 | INFO     | __main__                       | Téléchargement [30/38]: bsv_gc_n_9_du_15_10_2024.pdf
+2025-10-24 08:06:54 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3544.8 KB): bsv_gc_n_9_du_15_10_2024.pdf
+2025-10-24 08:06:55 | INFO     | __main__                       | Téléchargement [31/38]: bsv_gc_n_8_du_08_10_2024.pdf
+2025-10-24 08:06:59 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3067.4 KB): bsv_gc_n_8_du_08_10_2024.pdf
+2025-10-24 08:07:00 | INFO     | __main__                       | Téléchargement [32/38]: bsv_gc_n_7_du_01_10_2024.pdf
+2025-10-24 08:07:11 | INFO     | utils.file_utils               | PDF téléchargé avec succès (2774.1 KB): bsv_gc_n_7_du_01_10_2024.pdf
+2025-10-24 08:07:12 | INFO     | __main__                       | Téléchargement [33/38]: bsv_gc_n_6_du_24_09_2024.pdf
+2025-10-24 08:07:15 | INFO     | utils.file_utils               | PDF téléchargé avec succès (5703.9 KB): bsv_gc_n_6_du_24_09_2024.pdf
+2025-10-24 08:07:16 | INFO     | __main__                       | Téléchargement [34/38]: bsv_n_5_du_17_09_2024.pdf
+2025-10-24 08:07:22 | INFO     | utils.file_utils               | PDF téléchargé avec succès (5787.8 KB): bsv_n_5_du_17_09_2024.pdf
+2025-10-24 08:07:23 | INFO     | __main__                       | Téléchargement [35/38]: bsv_gc_n_4_du_10_09_2024.pdf
+2025-10-24 08:07:27 | INFO     | utils.file_utils               | PDF téléchargé avec succès (2872.0 KB): bsv_gc_n_4_du_10_09_2024.pdf
+2025-10-24 08:07:28 | INFO     | __main__                       | Téléchargement [36/38]: bsv_gc_n_3_du_03_09_2024.pdf
+2025-10-24 08:07:31 | INFO     | utils.file_utils               | PDF téléchargé avec succès (2778.6 KB): bsv_gc_n_3_du_03_09_2024.pdf
+2025-10-24 08:07:32 | INFO     | __main__                       | Téléchargement [37/38]: bsv_gc_n_1_du_20_08_2024.pdf
+2025-10-24 08:07:35 | INFO     | utils.file_utils               | PDF téléchargé avec succès (1930.7 KB): bsv_gc_n_1_du_20_08_2024.pdf
+2025-10-24 08:07:36 | INFO     | __main__                       | Téléchargement [38/38]: bsv_gc_n_2_du_27_08_2024.pdf
+2025-10-24 08:07:38 | INFO     | utils.file_utils               | PDF téléchargé avec succès (2207.2 KB): bsv_gc_n_2_du_27_08_2024.pdf
+2025-10-24 08:07:39 | INFO     | __main__                       | Téléchargement terminé pour l'année 2024: 38/38 PDF téléchargés
+2025-10-24 08:07:39 | INFO     | __main__                       | ================================================================================
+2025-10-24 08:07:39 | INFO     | __main__                       | TRAITEMENT DE L'ANNÉE 2023 (2/3)
+2025-10-24 08:07:39 | INFO     | __main__                       | ================================================================================
+2025-10-24 08:07:39 | INFO     | __main__                       | URL de l'année: https://draaf.bourgogne-franche-comte.agriculture.gouv.fr/bulletins-de-sante-du-vegetal-grandes-cultures-bourgogne-franche-comte-2023-a3004.html
+2025-10-24 08:07:39 | INFO     | __main__                       | Récupération de la page pour l'année 2023...
+2025-10-24 08:07:40 | INFO     | __main__                       | Page récupérée avec succès: https://draaf.bourgogne-franche-comte.agriculture.gouv.fr/bulletins-de-sante-du-vegetal-grandes-cultures-bourgogne-franche-comte-2023-a3004.html
+2025-10-24 08:07:40 | INFO     | __main__                       | Page de l'année 2023 récupérée avec succès
+2025-10-24 08:07:40 | INFO     | __main__                       | Collecte des liens PDF pour l'année 2023...
+2025-10-24 08:07:40 | INFO     | __main__                       | Nombre de PDF trouvés pour l'année 2023: 38
+2025-10-24 08:07:40 | INFO     | __main__                       | Répertoire créé/vérifié: /home/ngoupaye/projets-scolaires/plant_health_NLP_analysis/data/raw/bourgogne_franche_comte/2023
+2025-10-24 08:07:40 | INFO     | __main__                       | Début du téléchargement de 38 PDF pour l'année 2023...
+2025-10-24 08:07:40 | INFO     | __main__                       | Téléchargement [1/38]: bsv_gc_n_37_du_16_07_2024.pdf
+2025-10-24 08:07:42 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3512.5 KB): bsv_gc_n_37_du_16_07_2024.pdf
+2025-10-24 08:07:43 | INFO     | __main__                       | Téléchargement [2/38]: bsv_gc_n_36_du_09_07_2024.pdf
+2025-10-24 08:07:48 | INFO     | utils.file_utils               | PDF téléchargé avec succès (4701.1 KB): bsv_gc_n_36_du_09_07_2024.pdf
+2025-10-24 08:07:49 | INFO     | __main__                       | Téléchargement [3/38]: bsv_gc_n_35_du_02_07_2024.pdf
+2025-10-24 08:07:52 | INFO     | utils.file_utils               | PDF téléchargé avec succès (2974.9 KB): bsv_gc_n_35_du_02_07_2024.pdf
+2025-10-24 08:07:53 | INFO     | __main__                       | Téléchargement [4/38]: bsv_gc_n_34_du_25_06_2024.pdf
+2025-10-24 08:07:57 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3895.4 KB): bsv_gc_n_34_du_25_06_2024.pdf
+2025-10-24 08:07:58 | INFO     | __main__                       | Téléchargement [5/38]: bsv_gc_n_33_du_18_06_2024.pdf
+2025-10-24 08:08:01 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3874.5 KB): bsv_gc_n_33_du_18_06_2024.pdf
+2025-10-24 08:08:02 | INFO     | __main__                       | Téléchargement [6/38]: bsv_gc_n_32_du_11_06_2024.pdf
+2025-10-24 08:08:09 | INFO     | utils.file_utils               | PDF téléchargé avec succès (5505.3 KB): bsv_gc_n_32_du_11_06_2024.pdf
+2025-10-24 08:08:10 | INFO     | __main__                       | Téléchargement [7/38]: bsv_gc_n_31_du_04_06_2024.pdf
+2025-10-24 08:08:15 | INFO     | utils.file_utils               | PDF téléchargé avec succès (5354.3 KB): bsv_gc_n_31_du_04_06_2024.pdf
+2025-10-24 08:08:16 | INFO     | __main__                       | Téléchargement [8/38]: bsv_gc_n_30_du_28_05_2024.pdf
+2025-10-24 08:08:20 | INFO     | utils.file_utils               | PDF téléchargé avec succès (6021.4 KB): bsv_gc_n_30_du_28_05_2024.pdf
+2025-10-24 08:08:21 | INFO     | __main__                       | Téléchargement [9/38]: bsv_gc_n_29_du_22_05_2024.pdf
+2025-10-24 08:08:27 | INFO     | utils.file_utils               | PDF téléchargé avec succès (4999.6 KB): bsv_gc_n_29_du_22_05_2024.pdf
+2025-10-24 08:08:28 | INFO     | __main__                       | Téléchargement [10/38]: bsv_gc_n_28_du_14_05_2024.pdf
+2025-10-24 08:08:33 | INFO     | utils.file_utils               | PDF téléchargé avec succès (8971.2 KB): bsv_gc_n_28_du_14_05_2024.pdf
+2025-10-24 08:08:34 | INFO     | __main__                       | Téléchargement [11/38]: bsv_gc_n_27_du_07_05_2024_01.pdf
+2025-10-24 08:08:39 | INFO     | utils.file_utils               | PDF téléchargé avec succès (4400.7 KB): bsv_gc_n_27_du_07_05_2024_01.pdf
+2025-10-24 08:08:40 | INFO     | __main__                       | Téléchargement [12/38]: bsv_gc_n_26_du_30_04_2024.pdf
+2025-10-24 08:08:44 | INFO     | utils.file_utils               | PDF téléchargé avec succès (4585.9 KB): bsv_gc_n_26_du_30_04_2024.pdf
+2025-10-24 08:08:45 | INFO     | __main__                       | Téléchargement [13/38]: bsv_gc_n_25_du_23_04_2024.pdf
+2025-10-24 08:08:48 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3915.1 KB): bsv_gc_n_25_du_23_04_2024.pdf
+2025-10-24 08:08:49 | INFO     | __main__                       | Téléchargement [14/38]: bsv_gc_n_24_du_16_04_2024.pdf
+2025-10-24 08:08:51 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3711.4 KB): bsv_gc_n_24_du_16_04_2024.pdf
+2025-10-24 08:08:52 | INFO     | __main__                       | Téléchargement [15/38]: bsv_gc_n_23_du_09_04_2024.pdf
+2025-10-24 08:08:57 | INFO     | utils.file_utils               | PDF téléchargé avec succès (4585.3 KB): bsv_gc_n_23_du_09_04_2024.pdf
+2025-10-24 08:08:58 | INFO     | __main__                       | Téléchargement [16/38]: bsv_gc_n_22_du_03_04_2024.pdf
+2025-10-24 08:09:03 | INFO     | utils.file_utils               | PDF téléchargé avec succès (4611.3 KB): bsv_gc_n_22_du_03_04_2024.pdf
+2025-10-24 08:09:04 | INFO     | __main__                       | Téléchargement [17/38]: bsv_gc_n_21_du_26_03_2024.pdf
+2025-10-24 08:09:16 | INFO     | utils.file_utils               | PDF téléchargé avec succès (4357.0 KB): bsv_gc_n_21_du_26_03_2024.pdf
+2025-10-24 08:09:17 | INFO     | __main__                       | Téléchargement [18/38]: bsv_gc_n_20_du_19_03_2024.pdf
+2025-10-24 08:09:19 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3704.3 KB): bsv_gc_n_20_du_19_03_2024.pdf
+2025-10-24 08:09:20 | INFO     | __main__                       | Téléchargement [19/38]: bsv_gc_n_19_du_19_03_2024.pdf
+2025-10-24 08:09:26 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3898.0 KB): bsv_gc_n_19_du_19_03_2024.pdf
+2025-10-24 08:09:27 | INFO     | __main__                       | Téléchargement [20/38]: bsv_gc_n_18_du_05_03_2024.pdf
+2025-10-24 08:09:31 | INFO     | utils.file_utils               | PDF téléchargé avec succès (2217.5 KB): bsv_gc_n_18_du_05_03_2024.pdf
+2025-10-24 08:09:32 | INFO     | __main__                       | Téléchargement [21/38]: bsv_gc_n_17_du_27_02_2024.pdf
+2025-10-24 08:09:35 | INFO     | utils.file_utils               | PDF téléchargé avec succès (2022.6 KB): bsv_gc_n_17_du_27_02_2024.pdf
+2025-10-24 08:09:36 | INFO     | __main__                       | Téléchargement [22/38]: bsv_gc_n_16_du_20_02_2024.pdf
+2025-10-24 08:09:38 | INFO     | utils.file_utils               | PDF téléchargé avec succès (1943.6 KB): bsv_gc_n_16_du_20_02_2024.pdf
+2025-10-24 08:09:39 | INFO     | __main__                       | Téléchargement [23/38]: bsv_gc_n_15_du_13_02_2024.pdf
+2025-10-24 08:09:41 | INFO     | utils.file_utils               | PDF téléchargé avec succès (2576.2 KB): bsv_gc_n_15_du_13_02_2024.pdf
+2025-10-24 08:09:42 | INFO     | __main__                       | Téléchargement [24/38]: bsv_gc_n_14_du_06_02_2024.pdf
+2025-10-24 08:09:45 | INFO     | utils.file_utils               | PDF téléchargé avec succès (2692.1 KB): bsv_gc_n_14_du_06_02_2024.pdf
+2025-10-24 08:09:46 | INFO     | __main__                       | Téléchargement [25/38]: bsv_gc_note_campagnols_des_champs_du_21_11_23.pdf
+2025-10-24 08:09:51 | INFO     | utils.file_utils               | PDF téléchargé avec succès (5534.8 KB): bsv_gc_note_campagnols_des_champs_du_21_11_23.pdf
+2025-10-24 08:09:52 | INFO     | __main__                       | Téléchargement [26/38]: bsv_gc_n_13_du_14_11_23.pdf
+2025-10-24 08:09:56 | INFO     | utils.file_utils               | PDF téléchargé avec succès (2401.5 KB): bsv_gc_n_13_du_14_11_23.pdf
+2025-10-24 08:09:57 | INFO     | __main__                       | Téléchargement [27/38]: bsv_gc_n_12_du_07_11_23.pdf
+2025-10-24 08:10:02 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3332.4 KB): bsv_gc_n_12_du_07_11_23.pdf
+2025-10-24 08:10:03 | INFO     | __main__                       | Téléchargement [28/38]: bsv_gc_n_11_du_31_10_23.pdf
+2025-10-24 08:10:05 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3384.5 KB): bsv_gc_n_11_du_31_10_23.pdf
+2025-10-24 08:10:06 | INFO     | __main__                       | Téléchargement [29/38]: bsv_gc_n_10_du_24_10_23.pdf
+2025-10-24 08:10:08 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3204.8 KB): bsv_gc_n_10_du_24_10_23.pdf
+2025-10-24 08:10:09 | INFO     | __main__                       | Téléchargement [30/38]: bsv_gc_n_9_du_17_10_23.pdf
+2025-10-24 08:10:12 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3619.9 KB): bsv_gc_n_9_du_17_10_23.pdf
+2025-10-24 08:10:13 | INFO     | __main__                       | Téléchargement [31/38]: bsv_gc_n_8_du_10_10_23.pdf
+2025-10-24 08:10:14 | INFO     | utils.file_utils               | PDF téléchargé avec succès (1089.0 KB): bsv_gc_n_8_du_10_10_23.pdf
+2025-10-24 08:10:15 | INFO     | __main__                       | Téléchargement [32/38]: bsv_gc_n_7_du_03_10_23.pdf
+2025-10-24 08:10:17 | INFO     | utils.file_utils               | PDF téléchargé avec succès (1761.0 KB): bsv_gc_n_7_du_03_10_23.pdf
+2025-10-24 08:10:18 | INFO     | __main__                       | Téléchargement [33/38]: bsv_gc_n_6_du_26_09_2023.pdf
+2025-10-24 08:10:24 | INFO     | utils.file_utils               | PDF téléchargé avec succès (1609.7 KB): bsv_gc_n_6_du_26_09_2023.pdf
+2025-10-24 08:10:25 | INFO     | __main__                       | Téléchargement [34/38]: bsv_gc_n_5_du_19_09_23.pdf
+2025-10-24 08:10:28 | INFO     | utils.file_utils               | PDF téléchargé avec succès (1962.7 KB): bsv_gc_n_5_du_19_09_23.pdf
+2025-10-24 08:10:29 | INFO     | __main__                       | Téléchargement [35/38]: bsv_gc_n_4_du_12_09_23.pdf
+2025-10-24 08:10:31 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3205.0 KB): bsv_gc_n_4_du_12_09_23.pdf
+2025-10-24 08:10:32 | INFO     | __main__                       | Téléchargement [36/38]: bsv_gc_n_3_du_05_09_23.pdf
+2025-10-24 08:10:34 | INFO     | utils.file_utils               | PDF téléchargé avec succès (2457.7 KB): bsv_gc_n_3_du_05_09_23.pdf
+2025-10-24 08:10:35 | INFO     | __main__                       | Téléchargement [37/38]: bsv_gc_n_2_du_29_08_23.pdf
+2025-10-24 08:10:39 | INFO     | utils.file_utils               | PDF téléchargé avec succès (2875.5 KB): bsv_gc_n_2_du_29_08_23.pdf
+2025-10-24 08:10:40 | INFO     | __main__                       | Téléchargement [38/38]: bsv_gc_n_1_du_22_08_23.pdf
+2025-10-24 08:10:45 | INFO     | utils.file_utils               | PDF téléchargé avec succès (2206.4 KB): bsv_gc_n_1_du_22_08_23.pdf
+2025-10-24 08:10:46 | INFO     | __main__                       | Téléchargement terminé pour l'année 2023: 38/38 PDF téléchargés
+2025-10-24 08:10:46 | INFO     | __main__                       | ================================================================================
+2025-10-24 08:10:46 | INFO     | __main__                       | TRAITEMENT DE L'ANNÉE 2022 (3/3)
+2025-10-24 08:10:46 | INFO     | __main__                       | ================================================================================
+2025-10-24 08:10:46 | INFO     | __main__                       | URL de l'année: https://draaf.bourgogne-franche-comte.agriculture.gouv.fr/bulletins-de-sante-du-vegetal-grandes-cultures-bourgogne-franche-comte-2022-a3122.html
+2025-10-24 08:10:46 | INFO     | __main__                       | Récupération de la page pour l'année 2022...
+2025-10-24 08:10:47 | INFO     | __main__                       | Page récupérée avec succès: https://draaf.bourgogne-franche-comte.agriculture.gouv.fr/bulletins-de-sante-du-vegetal-grandes-cultures-bourgogne-franche-comte-2022-a3122.html
+2025-10-24 08:10:47 | INFO     | __main__                       | Page de l'année 2022 récupérée avec succès
+2025-10-24 08:10:47 | INFO     | __main__                       | Collecte des liens PDF pour l'année 2022...
+2025-10-24 08:10:47 | INFO     | __main__                       | Nombre de PDF trouvés pour l'année 2022: 35
+2025-10-24 08:10:47 | INFO     | __main__                       | Répertoire créé/vérifié: /home/ngoupaye/projets-scolaires/plant_health_NLP_analysis/data/raw/bourgogne_franche_comte/2022
+2025-10-24 08:10:47 | INFO     | __main__                       | Début du téléchargement de 35 PDF pour l'année 2022...
+2025-10-24 08:10:47 | INFO     | __main__                       | Téléchargement [1/35]: bilan_bsv_gc_2022_2023.pdf
+2025-10-24 08:10:50 | INFO     | utils.file_utils               | PDF téléchargé avec succès (4982.4 KB): bilan_bsv_gc_2022_2023.pdf
+2025-10-24 08:10:51 | INFO     | __main__                       | Téléchargement [2/35]: bsv_gc_n_33_du_11_07_23.pdf
+2025-10-24 08:10:53 | INFO     | utils.file_utils               | PDF téléchargé avec succès (2421.7 KB): bsv_gc_n_33_du_11_07_23.pdf
+2025-10-24 08:10:54 | INFO     | __main__                       | Téléchargement [3/35]: bsv_gc_n_32_du_04_07_23.pdf
+2025-10-24 08:10:59 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3291.3 KB): bsv_gc_n_32_du_04_07_23.pdf
+2025-10-24 08:11:00 | INFO     | __main__                       | Téléchargement [4/35]: bsv_gc_n_31_du_27_06_23.pdf
+2025-10-24 08:11:02 | INFO     | utils.file_utils               | PDF téléchargé avec succès (2624.9 KB): bsv_gc_n_31_du_27_06_23.pdf
+2025-10-24 08:11:03 | INFO     | __main__                       | Téléchargement [5/35]: bsv_gc_n_30_du_20_06_23.pdf
+2025-10-24 08:11:07 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3033.9 KB): bsv_gc_n_30_du_20_06_23.pdf
+2025-10-24 08:11:08 | INFO     | __main__                       | Téléchargement [6/35]: bsv_gc_n_29_du_13_06_23_avec_notes_campagnols.pdf
+2025-10-24 08:11:17 | INFO     | utils.file_utils               | PDF téléchargé avec succès (7324.7 KB): bsv_gc_n_29_du_13_06_23_avec_notes_campagnols.pdf
+2025-10-24 08:11:18 | INFO     | __main__                       | Téléchargement [7/35]: bsv_gc_n_28_du_06_06_23_avec_notes_campagnols.pdf
+2025-10-24 08:11:33 | INFO     | utils.file_utils               | PDF téléchargé avec succès (7837.0 KB): bsv_gc_n_28_du_06_06_23_avec_notes_campagnols.pdf
+2025-10-24 08:11:34 | INFO     | __main__                       | Téléchargement [8/35]: bsv_gc_n_27_du_31_05_23_avec_notes_campagnols.pdf
+2025-10-24 08:11:44 | INFO     | utils.file_utils               | PDF téléchargé avec succès (10187.3 KB): bsv_gc_n_27_du_31_05_23_avec_notes_campagnols.pdf
+2025-10-24 08:11:45 | INFO     | __main__                       | Téléchargement [9/35]: bsv_gc_n_26_du_23_05_23_avec_notes_campgnols.pdf
+2025-10-24 08:11:52 | INFO     | utils.file_utils               | PDF téléchargé avec succès (7232.1 KB): bsv_gc_n_26_du_23_05_23_avec_notes_campgnols.pdf
+2025-10-24 08:11:53 | INFO     | __main__                       | Téléchargement [10/35]: bsv_gc_n_25_du_16_05_23_avec_notes_campagnols.pdf
+2025-10-24 08:12:01 | INFO     | utils.file_utils               | PDF téléchargé avec succès (7421.5 KB): bsv_gc_n_25_du_16_05_23_avec_notes_campagnols.pdf
+2025-10-24 08:12:02 | INFO     | __main__                       | Téléchargement [11/35]: bsv_gc_n_24_du_10_05_23_avec_notes_campagnols.pdf
+2025-10-24 08:12:09 | INFO     | utils.file_utils               | PDF téléchargé avec succès (7793.0 KB): bsv_gc_n_24_du_10_05_23_avec_notes_campagnols.pdf
+2025-10-24 08:12:10 | INFO     | __main__                       | Téléchargement [12/35]: bsv_gc_n_23_du_03_05_23_avec_notes_campagnols.pdf
+2025-10-24 08:12:17 | INFO     | utils.file_utils               | PDF téléchargé avec succès (7775.9 KB): bsv_gc_n_23_du_03_05_23_avec_notes_campagnols.pdf
+2025-10-24 08:12:18 | INFO     | __main__                       | Téléchargement [13/35]: bsv_gc_n_22_du_25_04_23_et_note_campagnols.pdf
+2025-10-24 08:12:24 | INFO     | utils.file_utils               | PDF téléchargé avec succès (8832.9 KB): bsv_gc_n_22_du_25_04_23_et_note_campagnols.pdf
+2025-10-24 08:12:25 | INFO     | __main__                       | Téléchargement [14/35]: bsv_gc_n_21_du_18_04_23.pdf
+2025-10-24 08:12:30 | INFO     | utils.file_utils               | PDF téléchargé avec succès (4776.4 KB): bsv_gc_n_21_du_18_04_23.pdf
+2025-10-24 08:12:31 | INFO     | __main__                       | Téléchargement [15/35]: bsv_gc_n_20_du_12_04_23.pdf
+2025-10-24 08:12:36 | INFO     | utils.file_utils               | PDF téléchargé avec succès (4523.6 KB): bsv_gc_n_20_du_12_04_23.pdf
+2025-10-24 08:12:37 | INFO     | __main__                       | Téléchargement [16/35]: bsv_gc_n_19_du_04_04_23.pdf
+2025-10-24 08:12:40 | INFO     | utils.file_utils               | PDF téléchargé avec succès (4369.3 KB): bsv_gc_n_19_du_04_04_23.pdf
+2025-10-24 08:12:41 | INFO     | __main__                       | Téléchargement [17/35]: bsv_gc_n_18_du_28_03_23.pdf
+2025-10-24 08:12:44 | INFO     | utils.file_utils               | PDF téléchargé avec succès (4653.7 KB): bsv_gc_n_18_du_28_03_23.pdf
+2025-10-24 08:12:45 | INFO     | __main__                       | Téléchargement [18/35]: bsv_gc_n_17_du_21_03_23.pdf
+2025-10-24 08:12:51 | INFO     | utils.file_utils               | PDF téléchargé avec succès (5011.2 KB): bsv_gc_n_17_du_21_03_23.pdf
+2025-10-24 08:12:52 | INFO     | __main__                       | Téléchargement [19/35]: bsv_gc_n_16_du_14_03_23.pdf
+2025-10-24 08:13:04 | INFO     | utils.file_utils               | PDF téléchargé avec succès (7722.5 KB): bsv_gc_n_16_du_14_03_23.pdf
+2025-10-24 08:13:05 | INFO     | __main__                       | Téléchargement [20/35]: bsv_gc_n_15_du_07_03_23.pdf
+2025-10-24 08:13:08 | INFO     | utils.file_utils               | PDF téléchargé avec succès (2842.8 KB): bsv_gc_n_15_du_07_03_23.pdf
+2025-10-24 08:13:09 | INFO     | __main__                       | Téléchargement [21/35]: bsv_gc_n_14_du_28_02_23.pdf
+2025-10-24 08:13:14 | INFO     | utils.file_utils               | PDF téléchargé avec succès (2898.8 KB): bsv_gc_n_14_du_28_02_23.pdf
+2025-10-24 08:13:15 | INFO     | __main__                       | Téléchargement [22/35]: bsv_gc_n_13_du_21_02_23.pdf
+2025-10-24 08:13:16 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3172.9 KB): bsv_gc_n_13_du_21_02_23.pdf
+2025-10-24 08:13:17 | INFO     | __main__                       | Téléchargement [23/35]: 2022-10_campagnols_des_champs.pdf
+2025-10-24 08:13:20 | INFO     | utils.file_utils               | PDF téléchargé avec succès (2633.0 KB): 2022-10_campagnols_des_champs.pdf
+2025-10-24 08:13:21 | INFO     | __main__                       | Téléchargement [24/35]: bsv_gc_n_12_du_15_11_22.pdf
+2025-10-24 08:13:23 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3089.8 KB): bsv_gc_n_12_du_15_11_22.pdf
+2025-10-24 08:13:24 | INFO     | __main__                       | Téléchargement [25/35]: bsv_gc_n_11_du_08_11_22.pdf
+2025-10-24 08:13:27 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3191.3 KB): bsv_gc_n_11_du_08_11_22.pdf
+2025-10-24 08:13:28 | INFO     | __main__                       | Téléchargement [26/35]: bsv_gc_n_10_du_25_10_22.pdf
+2025-10-24 08:13:31 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3450.8 KB): bsv_gc_n_10_du_25_10_22.pdf
+2025-10-24 08:13:32 | INFO     | __main__                       | Téléchargement [27/35]: bsv_gc_n_9_du_18_10_22.pdf
+2025-10-24 08:13:40 | INFO     | utils.file_utils               | PDF téléchargé avec succès (2992.6 KB): bsv_gc_n_9_du_18_10_22.pdf
+2025-10-24 08:13:41 | INFO     | __main__                       | Téléchargement [28/35]: bsv_gc_n_8_du_11_10_22.pdf
+2025-10-24 08:13:45 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3227.6 KB): bsv_gc_n_8_du_11_10_22.pdf
+2025-10-24 08:13:46 | INFO     | __main__                       | Téléchargement [29/35]: bsv_gc_n_7_du_4_10_22.pdf
+2025-10-24 08:13:48 | INFO     | utils.file_utils               | PDF téléchargé avec succès (2558.9 KB): bsv_gc_n_7_du_4_10_22.pdf
+2025-10-24 08:13:49 | INFO     | __main__                       | Téléchargement [30/35]: bsv_gc_n_6_du_27_09_22.pdf
+2025-10-24 08:13:52 | INFO     | utils.file_utils               | PDF téléchargé avec succès (2196.2 KB): bsv_gc_n_6_du_27_09_22.pdf
+2025-10-24 08:13:53 | INFO     | __main__                       | Téléchargement [31/35]: bsv_gc_n_5_du_20_09_22.pdf
+2025-10-24 08:13:54 | INFO     | utils.file_utils               | PDF téléchargé avec succès (1841.8 KB): bsv_gc_n_5_du_20_09_22.pdf
+2025-10-24 08:13:55 | INFO     | __main__                       | Téléchargement [32/35]: bsv_gc_n_4_du_13_09_22.pdf
+2025-10-24 08:13:58 | INFO     | utils.file_utils               | PDF téléchargé avec succès (2227.6 KB): bsv_gc_n_4_du_13_09_22.pdf
+2025-10-24 08:13:59 | INFO     | __main__                       | Téléchargement [33/35]: bsv_gc_n_3_du_06_09_22.pdf
+2025-10-24 08:14:06 | INFO     | utils.file_utils               | PDF téléchargé avec succès (2437.5 KB): bsv_gc_n_3_du_06_09_22.pdf
+2025-10-24 08:14:07 | INFO     | __main__                       | Téléchargement [34/35]: bsv_gc_n_2_du_30_08_22.pdf
+2025-10-24 08:14:12 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3651.1 KB): bsv_gc_n_2_du_30_08_22.pdf
+2025-10-24 08:14:13 | INFO     | __main__                       | Téléchargement [35/35]: bsv_gc_n_1_du_23_08_22.pdf
+2025-10-24 08:14:15 | INFO     | utils.file_utils               | PDF téléchargé avec succès (3311.4 KB): bsv_gc_n_1_du_23_08_22.pdf
+2025-10-24 08:14:16 | INFO     | __main__                       | Téléchargement terminé pour l'année 2022: 35/35 PDF téléchargés
+2025-10-24 08:14:16 | INFO     | __main__                       | ================================================================================
+2025-10-24 08:14:16 | INFO     | __main__                       | SCRAPING TERMINÉ AVEC SUCCÈS
+2025-10-24 08:14:16 | INFO     | __main__                       | ================================================================================
+2025-10-24 08:14:16 | INFO     | __main__                       | Script terminé avec succès

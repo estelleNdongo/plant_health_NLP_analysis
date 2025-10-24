@@ -1,0 +1,45 @@
+project:
+  name: Plant Health NLP Analysis
+  version: 1.0.0
+  description: Analyse NLP des bulletins de santé du végétal (BSV) en France
+
+# Data
+data:
+  raw_dir: data/raw/
+  processed_dir: data/processed/
+  results_dir: data/results
+
+
+logging:
+  level: INFO                 # DEBUG, INFO, WARNING, ERROR
+  log_dir: logs
+  file_name: project.log
+  max_bytes: 10485760           # 10 MB
+  backup_count: 5
+  console: true                 # afficher aussi sur la console
+
+
+# scraping configuration
+scraping:
+  draaf_url_website: https://draaf.bourgogne-franche-comte.agriculture.gouv.fr/
+  regions:
+    bourgogne_franche_comte:
+      output_dir_pase_path: data/raw/bourgogne_franche_comte
+      current_campaign:
+        grandes_cultures: bsv-grandes-cultures-r706.html
+        viticulture_url:
+      previous_campaigns:
+        grandes_cultures: archivage-bsv-grandes-cultures-r713.html
+        viticulture_url:
+
+
+    occitanie:
+      output_dir_path: data/raw/occitanie
+      base_url: https://draaf.occitanie.agriculture.gouv.fr/bulletins-de-sante-du-vegetal-bsv-r349.html
+      current_campaign_url: https://draaf.occitanie.agriculture.gouv.fr/bsv-occitanie-campagne-en-cours-r45.html
+
+
+
+
+
+
