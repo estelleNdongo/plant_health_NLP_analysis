@@ -1,9 +1,11 @@
-import os
-from google.auth.transport.requests import Request
-from google.oauth2.credentials import Credentials
-from google_auth_oauthlib.flow import InstalledAppFlow
-from googleapiclient.discovery import build
-from googleapiclient.http import MediaFileUpload
+#OAuth2 Open Authorization
+
+import os #manipuler les chemins de fichiers et dosiiers de manière portable
+from google.auth.transport.requests import Request #rafraichir automatiquement un token OAuth2 expîré
+from google.oauth2.credentials import Credentials #charge et stocke les identifiants OAuth2
+from google_auth_oauthlib.flow import InstalledAppFlow #génère un token et ouvre un navigateur pour que l'utilisateur autorise l'application
+from googleapiclient.discovery import build  #construire un service pour interagir avec une API Google
+from googleapiclient.http import MediaFileUpload  #chargement fichier local à google drive
 
 
 class DriveUploader:
