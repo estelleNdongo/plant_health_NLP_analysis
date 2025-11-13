@@ -28,7 +28,6 @@ class TextExtractor:
         for year in range(start_year, end_year, -1):
             bsv_dir = scrapped_file_base_output_dir / str(year)
             print(scrapped_file_base_output_dir)
-
             for fichier in bsv_dir.glob("*.pdf"):  # tous les PDF du dossier
                 file_name = fichier.name.split('.')[0] + '.txt'
                 with pdfplumber.open(fichier) as pdf:
@@ -43,7 +42,6 @@ class TextExtractor:
                         if chunk:
                             text_file.write(str(chunk))
                 extracted_text.clear()
-            bsv_dir = scrapped_file_base_output_dir
 
 
 def main():
@@ -70,4 +68,5 @@ def main():
 
 if __name__ == "__main__":
     sys.exit(main())
+
 
