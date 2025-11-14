@@ -41,3 +41,5 @@ Thumbs.db
 # Reports
 reports/*.docx
 reports/~$*
+
+logs
