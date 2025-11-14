@@ -6,5 +6,11 @@ beautifulsoup4==4.14.2
 lxml==6.0.2
 requests==2.32.5
 
-# text extractor package
 PyMuPDF==1.26.6
+pdfplumber
+google-auth==2.34.0
+google-auth-oauthlib==1.2.1
+google-auth-httplib2==0.2.0
+google-api-python-client==2.151.0
+httplib2==0.22.0
+uritemplate==4.1.1

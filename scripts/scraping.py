@@ -13,7 +13,7 @@ from utils.config_loader import ConfigLoader
 from utils.file_utils import download_pdf
 from utils.logger import setup_logging, get_logger
 
-# Initialiser le logger pour ce module
+
 logger = get_logger(__name__)
 
 

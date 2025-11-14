@@ -5,6 +5,7 @@ __pycache__/
 *.so
 .Python
 env/
+.venv
 venv/
 ENV/
 build/
@@ -40,3 +41,5 @@ Thumbs.db
 # Reports
 reports/*.docx
 reports/~$*
+
+logs
