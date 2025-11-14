@@ -5,3 +5,6 @@ pyyaml
 beautifulsoup4==4.14.2
 lxml==6.0.2
 requests==2.32.5
+
+# text extractor package
+PyMuPDF==1.26.6

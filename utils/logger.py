@@ -71,7 +71,7 @@ def setup_logging(config: dict = None, force_setup: bool = False):
     use_console = logging_cfg.get('console', True)
 
     # Créer le dossier de logs
-    log_dir_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))) ,log_dir)
+    log_dir_path = Path(os.path.dirname(os.path.dirname(os.path.abspath(__file__))) ,log_dir)
     log_dir_path.mkdir(parents=True, exist_ok=True)
     log_path = log_dir_path / file_name
 
