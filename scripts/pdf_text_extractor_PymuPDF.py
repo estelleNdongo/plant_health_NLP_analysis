@@ -52,7 +52,8 @@ class PDFTextExtractor:
 
                     relative_path = os.path.relpath(root, self.raw_full_path)
                     
-                    output_dir = os.path.join(self.processed_base_dir, 'bourgogne_franche_comte', relative_path)
+                    # MODIFICATION : Ajout du dossier "txt" intermédiaire
+                    output_dir = os.path.join(self.processed_base_dir, 'txt', 'bourgogne_franche_comte', relative_path)
                     os.makedirs(output_dir, exist_ok=True)
                     txt_filename = os.path.splitext(file)[0] + '.txt'
                     output_path = os.path.join(output_dir, txt_filename) 
