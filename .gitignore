@@ -43,3 +43,6 @@ reports/*.docx
 reports/~$*
 
 logs
+project_context.txt
+scripts/token.json
+
