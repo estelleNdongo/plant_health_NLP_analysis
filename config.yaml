@@ -25,7 +25,7 @@ scraping:
   regions:
     bourgogne_franche_comte:
       output_dir_pase_path: data/raw/bourgogne_franche_comte
-      output_dir_extracted_base_path: data/processed/bourgogne_franche_comte
+      output_dir_extracted_base_path: data/processed/txt/bourgogne_franche_comte
       current_campaign:
         grandes_cultures: bsv-grandes-cultures-r706.html
         viticulture_url:
