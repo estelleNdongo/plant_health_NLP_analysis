@@ -1,0 +1,207 @@
+
+chlorose = jaunissement
+
+nécrose = mort du tissu, partie brunie
+
+taches foliaires
+
+taches huileuses
+
+déformation foliaire
+
+marbrures
+
+mosaïque
+
+flétrissement
+
+dessèchement
+
+enroulement
+
+perforations
+
+pustules
+
+mycélium visible
+
+feutrage
+
+dépôts poudreux
+
+taches concentriques
+
+bruniture
+
+halos
+
+nécrose foliaire marginale
+
+
+nécrose du collet
+
+pourriture
+
+chancres
+
+fissures
+
+galeries (larves)
+
+sciure visible
+
+perforation
+
+chancre basal
+
+dessèchement
+
+décoloration interne
+
+brunissement vasculaire
+
+fusarioses (taches rosées)
+
+pourriture des grains
+
+soies infestées
+
+dessèchement prématuré
+
+malformations des grains
+
+avortement grain
+
+épis creux
+
+pourriture racinaire
+
+racines brunies
+
+racines nécrosées
+
+manque de pivot
+
+stagnation de croissance
+
+absence de radicelles
+
+lésions
+
+piqûres (insectes du sol)
+ralentissement de croissance
+
+nanisme
+
+faiblesse
+
+jaunissement généralisé
+
+avortement
+
+flétrissement
+
+dépérissement
+
+stress hydrique
+
+stress thermique
+
+dessèchement global
+
+chute des feuilles
+
+mortalité localisée
+
+mortalité massive
+présence de miellat
+
+présence d’ailés
+
+perforations du limbe
+
+feuilles dévorées
+
+présence de chenilles
+
+traces de larves baladeuses
+
+tiges percées
+
+présence de sciure
+
+galeries internes
+
+traces de pontes
+
+grignotage
+
+morsures
+
+feuilles éclatées
+
+feuilles trouées
+
+panicules colonisées
+
+apparition d’individus ailés
+
+oïdium : feutrage blanc
+
+mildiou : taches huileuses + feutrage
+
+fusariose : rosé, pourriture
+
+septoriose : taches brunes
+
+rouille : pustules brunes/orangées
+
+helminthosporiose : taches eliptiques
+
+botrytis : gris mou
+
+rhizoctone : pourriture collet
+
+exsudat bactérien
+
+lésions humides
+
+pourriture humide
+
+taches huileuses
+
+odeur forte
+
+nécrose humide
+
+mosaïque
+
+marbrures
+
+déformations
+
+nanisme
+
+chutes de feuilles
+
+chlorose mosaïque
+
+sciure sur feuilles
+
+trous dans tige
+
+larves baladeuses
+
+présence d’adultes
+
+olmatage d’épis
+
+dégâts de pyrale
+
+panicules colonisées
+
+dépôts visibles
+
+malformations florales
+
+tiges perforées
