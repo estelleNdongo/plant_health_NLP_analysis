@@ -32,7 +32,6 @@ class TextExtractor:
                 file_name = fichier.name.split('.')[0] + '.txt'
                 with pdfplumber.open(fichier) as pdf:
                     for page in pdf.pages:
-                        extracted_text.append(f" ===== Page {page.page_number} of {len(pdf.pages)}  ====== \n")
                         extracted_text.append(page.extract_text())
                         extracted_text.append(page.extract_table())
                 year_dir = os.path.join(str(extracted_text_file_base_output_dir), str(year))

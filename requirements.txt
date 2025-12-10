@@ -14,3 +14,7 @@ google-auth-httplib2==0.2.0
 google-api-python-client==2.151.0
 httplib2==0.22.0
 uritemplate==4.1.1
+
+spacy==3.7.6
+
+https://github.com/explosion/spacy-models/releases/download/fr_core_news_lg-3.7.0/fr_core_news_lg-3.7.0-py3-none-any.whl
