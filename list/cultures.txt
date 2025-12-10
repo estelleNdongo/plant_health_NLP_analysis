@@ -37,9 +37,6 @@ fève
 lupins
 luzerne
 gesse
-
-
-
 vigne (raisin de cuve)
 vigne (raison de table)
 cerisier
@@ -57,7 +54,6 @@ Pêcher
 noyer
 agrumes(citronnier, oranger)
 pastèque
-
 tomate
 poireau
 épinard
