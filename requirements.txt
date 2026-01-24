@@ -16,5 +16,16 @@ httplib2==0.22.0
 uritemplate==4.1.1
 
 spacy==3.7.6
+# Visualisation
+matplotlib==3.8.2
+seaborn==0.13.0
+wordcloud==1.9.3
+
+# Manipulation de données
+pandas==2.1.4
+numpy==1.26.2
+
+# Optionnel : Visualisations interactives
+plotly==5.18.0
 
 https://github.com/explosion/spacy-models/releases/download/fr_core_news_lg-3.7.0/fr_core_news_lg-3.7.0-py3-none-any.whl
