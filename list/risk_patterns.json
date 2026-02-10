@@ -1,0 +1,310 @@
+{
+  "metadata": {
+    "description": "Dictionnaire de patterns pour détecter les niveaux de risque dans les BSV",
+    "version": "1.0",
+    "date_creation": "2025-01-24",
+    "auteur": "Plant Health NLP Analysis - Polytech Dijon",
+    "note": "Ce fichier peut être enrichi au fur et à mesure de l'analyse des BSV"
+  },
+  
+  "niveaux_risque": {
+    "très faible": {
+      "score": 0,
+      "description": "Risque quasi inexistant, situation très favorable",
+      "keywords": [
+        "très faible",
+        "tres faible",
+        "quasi nul",
+        "quasi nulle",
+        "négligeable",
+        "negligeable",
+        "négligable",
+        "negligable",
+        "aucun risque",
+        "pas de risque",
+        "absence de risque",
+        "sans risque",
+        "risque inexistant",
+        "aucune pression",
+        "aucun dégât",
+        "aucun degat"
+      ],
+      "exemples_bsv": [
+        "Le risque altise est très faible cette semaine",
+        "Aucun risque lié aux pucerons n'est observé"
+      ]
+    },
+    
+    "faible": {
+      "score": 1,
+      "description": "Risque limité, surveillance de routine suffisante",
+      "keywords": [
+        "faible",
+        "bas",
+        "basse",
+        "réduit",
+        "reduit",
+        "réduite",
+        "reduite",
+        "limité",
+        "limite",
+        "limitée",
+        "limitee",
+        "peu élevé",
+        "peu eleve",
+        "peu élevée",
+        "peu elevee",
+        "pas de dépassement",
+        "pas de depassement",
+        "en deçà du seuil",
+        "en deca du seuil",
+        "inférieur au seuil",
+        "inferieur au seuil",
+        "sous le seuil",
+        "situation calme",
+        "peu de pression",
+        "pression faible",
+        "pression limitée",
+        "pression limitee",
+        "peu de dégâts",
+        "peu de degats",
+        "dégâts limités",
+        "degats limites",
+        "faible présence",
+        "faible presence",
+        "présence limitée",
+        "presence limitee",
+        "observations ponctuelles",
+        "quelques observations",
+        "rares observations",
+        "peu d'observations"
+      ],
+      "exemples_bsv": [
+        "Le risque puceron reste faible",
+        "Pression limitée des limaces cette semaine",
+        "Pas de dépassement de seuil constaté"
+      ]
+    },
+    
+    "modéré": {
+      "score": 2,
+      "description": "Risque modéré, vigilance et surveillance accrue recommandées",
+      "keywords": [
+        "modéré",
+        "modere",
+        "modérée",
+        "moderee",
+        "moyen",
+        "moyenne",
+        "intermédiaire",
+        "intermediaire",
+        "à surveiller",
+        "a surveiller",
+        "vigilance",
+        "vigilance nécessaire",
+        "vigilance necessaire",
+        "vigilance recommandée",
+        "vigilance recommandee",
+        "attention",
+        "attention particulière",
+        "attention particuliere",
+        "proche du seuil",
+        "approche du seuil",
+        "atteinte du seuil",
+        "seuil atteint",
+        "surveillance accrue",
+        "surveillance renforcée",
+        "surveillance renforcee",
+        "observer attentivement",
+        "à observer",
+        "a observer",
+        "pression modérée",
+        "pression moderee",
+        "pression moyenne",
+        "présence notable",
+        "presence notable",
+        "présence significative",
+        "presence significative"
+      ],
+      "exemples_bsv": [
+        "Vigilance recommandée pour les altises",
+        "Le seuil est atteint dans plusieurs parcelles",
+        "Pression modérée des pucerons"
+      ]
+    },
+    
+    "élevé": {
+      "score": 3,
+      "description": "Risque élevé, intervention recommandée",
+      "keywords": [
+        "élevé",
+        "eleve",
+        "élevée",
+        "elevee",
+        "fort",
+        "forte",
+        "important",
+        "importante",
+        "significatif",
+        "significatif",
+        "significative",
+        "forte pression",
+        "pression élevée",
+        "pression elevee",
+        "pression importante",
+        "pression forte",
+        "dépassement du seuil",
+        "depassement du seuil",
+        "seuil dépassé",
+        "seuil depasse",
+        "supérieur au seuil",
+        "superieur au seuil",
+        "au-dessus du seuil",
+        "intervention recommandée",
+        "intervention recommandee",
+        "traitement recommandé",
+        "traitement recommande",
+        "traitement conseillé",
+        "traitement conseille",
+        "forte présence",
+        "forte presence",
+        "présence importante",
+        "presence importante",
+        "présence généralisée",
+        "presence generalisee",
+        "nombreuses observations",
+        "beaucoup d'observations",
+        "dégâts importants",
+        "degats importants",
+        "dégâts conséquents",
+        "degats consequents",
+        "situation préoccupante",
+        "situation preoccupante",
+        "risque important"
+      ],
+      "exemples_bsv": [
+        "Le risque altise est élevé sur colza",
+        "Forte pression de pucerons observée",
+        "Dépassement du seuil dans 80% des parcelles",
+        "Un traitement est recommandé"
+      ]
+    },
+    
+    "très élevé": {
+      "score": 4,
+      "description": "Risque très élevé, intervention immédiate nécessaire",
+      "keywords": [
+        "très élevé",
+        "tres eleve",
+        "très élevée",
+        "tres elevee",
+        "très fort",
+        "tres fort",
+        "très forte",
+        "tres forte",
+        "très important",
+        "tres important",
+        "très importante",
+        "tres importante",
+        "critique",
+        "alerte",
+        "alerte rouge",
+        "situation critique",
+        "situation alarmante",
+        "extrêmement élevé",
+        "extremement eleve",
+        "exceptionnellement élevé",
+        "exceptionnellement eleve",
+        "intervention immédiate",
+        "intervention immediate",
+        "traitement urgent",
+        "traitement immédiat",
+        "traitement immediat",
+        "action immédiate",
+        "action immediate",
+        "large dépassement",
+        "large depassement",
+        "fort dépassement",
+        "fort depassement",
+        "dépassement important",
+        "depassement important",
+        "généralisé",
+        "generalise",
+        "généralisée",
+        "generalisee",
+        "infestation généralisée",
+        "infestation generalisee",
+        "dégâts généralisés",
+        "degats generalises",
+        "pression maximale",
+        "pression extrême",
+        "pression extreme",
+        "situation d'urgence",
+        "urgence sanitaire"
+      ],
+      "exemples_bsv": [
+        "Alerte : risque très élevé pour les limaces",
+        "Situation critique nécessitant une intervention immédiate",
+        "Infestation généralisée constatée"
+      ]
+    }
+  },
+  
+  "patterns_negation": {
+    "description": "Mots de négation à détecter pour éviter les faux positifs",
+    "keywords": [
+      "pas",
+      "ne ... pas",
+      "aucun",
+      "aucune",
+      "sans",
+      "n'est pas",
+      "n est pas",
+      "ne sont pas",
+      "jamais"
+    ],
+    "exemples": [
+      "Le risque n'est PAS élevé → faible",
+      "Aucun risque élevé → très faible"
+    ]
+  },
+  
+  "patterns_contextuels": {
+    "description": "Expressions contextuelles aidant à identifier le niveau de risque",
+    "surveillance": {
+      "niveau_associe": "modéré",
+      "keywords": [
+        "à surveiller",
+        "surveillance nécessaire",
+        "observer régulièrement"
+      ]
+    },
+    "intervention": {
+      "niveau_associe": "élevé",
+      "keywords": [
+        "intervention nécessaire",
+        "traitement nécessaire",
+        "protection recommandée"
+      ]
+    },
+    "urgence": {
+      "niveau_associe": "très élevé",
+      "keywords": [
+        "intervention urgente",
+        "action rapide nécessaire",
+        "ne pas attendre"
+      ]
+    }
+  },
+  
+  "notes_enrichissement": {
+    "comment_enrichir": "Pour ajouter de nouvelles expressions, ajoutez-les dans la liste 'keywords' du niveau approprié",
+    "validation": "Après enrichissement, tester sur des exemples réels de BSV pour valider la pertinence",
+    "priorites": [
+      "1. Ajouter les expressions réellement présentes dans les BSV",
+      "2. Inclure les variantes orthographiques (accents, pluriels)",
+      "3. Ajouter les synonymes couramment utilisés",
+      "4. Tester et valider chaque ajout"
+    ]
+  }
+}

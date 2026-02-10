@@ -1,26 +1,48 @@
 Plasmopara viticola
+mildiou de la vigne
 Erysiphe necator
+oïdium de la vigne
+oidium de la vigne
 Botrytis cinerea
+pourriture grise
+botrytis
 Phaeomoniella chlamydospora
 Phaeoacremonium minimum
 Eutypa lata
+eutypiose
 Neofusicoccum parvum
 Agrobacterium vitis
 Grapevine fanleaf virus
 Grapevine leafroll-associated virus 3
 Zymoseptoria tritici
+septoriose du blé
+septoriose
 Blumeria graminis f. sp. tritici
+oïdium du blé
+oidium du blé
 Puccinia triticina
+rouille brune
+rouille
 Puccinia striiformis f. sp. tritici
+rouille jaune
 Fusarium graminearum
+fusariose
+fusarium
 Fusarium culmorum
 Pyrenophora tritici-repentis
+tache auréolée
 Rhizoctonia cerealis
+rhizoctone
+rhizoctonia
 Parastagonospora nodorum
 Barley yellow dwarf virus
 Tilletia caries
+carie
 Ustilago tritici
+charbon nu
+charbon
 Cochliobolus sativus
+helminthosporiose
 Microdochium nivale
 Puccinia hordei
 Rhynchosporium secalis
@@ -29,89 +51,139 @@ Fusarium poae
 Ustilago nuda
 Wheat streak mosaic virus
 Leptosphaeria maculans
+phoma du colza
+phoma
 Leptosphaeria biglobosa
 Sclerotinia sclerotiorum
+sclérotinia
+sclerotinia
 Verticillium longisporum
+verticilliose
+verticillium
 Alternaria brassicae
+alternariose
+alternaria
 Alternaria brassicicola
 Hyaloperonospora brassicae
+mildiou du colza
 Phoma lingam
 Plasmodiophora brassicae
+hernie du chou
 Pseudomonas syringae pv. maculicola
 Ustilago maydis
 Exserohilum turcicum
+helminthosporiose du maïs
 Bipolaris maydis
 Fusarium verticillioides
 Fusarium proliferatum
 Puccinia sorghi
+rouille du maïs
 Maize dwarf mosaic virus
 Maize chlorotic mottle virus
 Colletotrichum graminicola
+anthracnose
 Sporisorium reilianum
+charbon du maïs
 Phytophthora sojae
+phytophthora
 Fusarium oxysporum f. sp. glycines
 Sclerotinia minor
 Alternaria alternata
 Cercospora sojina
+cercosporiose
+cercospora
 Septoria glycines
 Peronospora manshurica
+mildiou du soja
 Soybean mosaic virus
 Bean pod mottle virus
 Xanthomonas axonopodis pv. glycines
 Plasmopara halstedii
+mildiou du tournesol
 Phoma macdonaldii
+phoma du tournesol
 Puccinia helianthi
+rouille du tournesol
 Alternaria helianthi
 Diaporthe helianthi
+phomopsis
+phomopsis du tournesol
 Sclerotinia trifoliorum
 Macrophomina phaseolina
 Botrytis cinerea
 Fusarium equiseti
 Rhizoctonia solani
 Cercospora beticola
+cercosporiose de la betterave
 Aphanomyces cochlioides
 Polymyxa betae
 Rhizoctonia solani AG-2-2
 Alternaria tenuissima
 Beet necrotic yellow vein virus
+rhizomanie
 Beet yellows virus
+jaunisse de la betterave
 Beet mild yellowing virus
 Fusarium oxysporum f. sp. betae
 Uromyces betae
+rouille de la betterave
 Pseudomonas syringae pv. aptata
 Erysiphe communis f. betae
+oïdium de la betterave
+oidium de la betterave
 Didymella pinodes
 Ascochyta pisi
+ascochytose
 Mycosphaerella pinodes
 Peyronellaea pinodella
 Aphanomyces euteiches
+aphanomyces
 Pythium ultimum
+pythium
 Fusarium solani
 Peronospora viciae
+mildiou du pois
 Botrytis fabae
-Botrytis cinerea 
+Botrytis cinerea
 Pea seed-borne mosaic virus
 Bean yellow mosaic virus
 Uromyces pisi
+rouille du pois
 Erysiphe pisi
+oïdium du pois
+oidium du pois
 Uromyces appendiculatus
 Colletotrichum lindemuthianum
+anthracnose du haricot
 Fusarium udum
 Fusarium redolens
 Erwinia amylovora
+feu bactérien
 Venturia inaequalis
+tavelure du pommier
+tavelure
 Venturia pyrina
+tavelure du poirier
 Podosphaera leucotricha
+oïdium du pommier
+oidium du pommier
 Neonectria ditissima
+chancre du pommier
+chancre
 Gymnosporangium sabinae
+rouille grillagée
 Taphrina deformans
+cloque du pêcher
 Monilinia laxa
+moniliose
+monilia
 Monilinia fructigena
 Monilinia fructicola
 Xanthomonas arboricola pv. pruni
 Pseudomonas syringae pv. syringae
 Pseudomonas syringae pv. morsprunorum
 Plum pox virus
+sharka
 Venturia nashicola
 Colletotrichum acutatum
 Cladosporium carpophilum
@@ -119,33 +191,44 @@ Rhizoctonia fragariae
 Phytophthora cactorum
 Phytophthora fragariae
 Podosphaera aphanis
+oïdium du fraisier
+oidium du fraisier
 Xanthomonas fragariae
 Strawberry mild yellow edge virus
 Strawberry crinkle virus
 Botrytis elliptica
 Botrytis tulipae
+feu de la tulipe
 Fusarium oxysporum f. sp. lilii
 Sclerotium rolfsii
 Alternaria dauci
+alternariose de la carotte
 Cercospora carotae
 Xanthomonas hortorum pv. carotae
 Pythium irregulare
 Erysiphe heraclei
 Peronospora destructor
+mildiou de l'oignon
 Botrytis squamosa
-Fusarium proliferatum 
+Fusarium proliferatum
 Stemphylium vesicarium
+stemphyliose
 Alternaria porri
 Elsinoë fawcettii
 Penicillium italicum
 Phytophthora citrophthora
 Xanthomonas citri
+chancre citrique
 Citrus tristeza virus
+tristeza
 Alternaria citri
 Guignardia citricarpa
+black spot
 Spilocaea oleaginea
-Verticillium dahliae 
-Colletotrichum acutatum 
+œil de paon
+oeil de paon
+Verticillium dahliae
+Colletotrichum acutatum
 Pseudomonas savastanoi pv. savastanoi
 Cercospora cladosporioides
 Phytophthora palmivora
@@ -154,6 +237,7 @@ Moniliophthora roreri
 Moniliophthora perniciosa
 Colletotrichum gloeosporioides
 Hemileia vastatrix
+rouille du café
 Coffee berry disease fungus
 Coffee wilt disease fungus
 Puccinia psidii
@@ -165,23 +249,34 @@ Xanthomonas campestris pv. vesicatoria
 Curtobacterium flaccumfaciens
 Pseudomonas corrugata
 Alternaria solani
+alternariose de la tomate
 Phytophthora infestans
+mildiou de la pomme de terre
+mildiou
 Ralstonia solanacearum
+flétrissement bactérien
 Potato virus Y
+virus Y
 Potato mop-top virus
 Spongospora subterranea
+gale poudreuse
 Clavibacter sepedonicus
 Fusarium sambucinum
 Verticillium albo-atrum
 Streptomyces scabies
+gale commune
 Streptomyces turgidiscabies
 Urocystis agropyri
 Ustilago avenae
+charbon de l'avoine
 Puccinia coronata
+rouille couronnée
 Puccinia graminis
+rouille noire
 Colletotrichum cereale
 Ramularia collo-cygni
 Magnaporthe oryzae
+pyriculariose
 Xanthomonas oryzae pv. oryzae
 Rhizoctonia oryzae
 Sarocladium oryzae
@@ -191,10 +286,51 @@ Alternaria padwickii
 Peronosclerospora sorghi
 Sclerospora graminicola
 Claviceps purpurea
+ergot
 Tilletia indica
 Tilletia controversa
+carie naine
 Lema melanopa virus
 Ustilago hordei
+charbon nu de l'orge
 Pyrenophora teres f. teres
+helminthosporiose rayée
 Pyrenophora teres f. maculata
+helminthosporiose tachetée
 Barley mild mosaic virus
+blanc
+oïdium
+oidium
+rouille
+fusariose
+septoriose
+cercosporiose
+anthracnose
+sclérotinia
+sclerotinia
+verticilliose
+phoma
+phomopsis
+botrytis
+pythium
+rhizoctone
+rhizoctonia
+phytophthora
+mildiou
+alternariose
+alternaria
+helminthosporiose
+charbon
+carie
+ergot
+pourriture
+tavelure
+chancre
+feu bactérien
+flétrissement
+hernie
+gale
+moniliose
+cloque
+sharka
+tristeza
